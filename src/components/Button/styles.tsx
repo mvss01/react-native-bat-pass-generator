@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
         borderWidth: 3,
         borderColor: "#2D2D2D",
         paddingHorizontal: 15,
-        marginTop: "5%"
+        marginTop: "auto"
     },
     text:{
         letterSpacing: 1,
