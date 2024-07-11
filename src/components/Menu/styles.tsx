@@ -2,13 +2,16 @@ import { StyleSheet } from "react-native"
 
 export const styles = StyleSheet.create({
     container: {
-        backgroundColor: "#FABF01",
+        flex: 1,
         width: "100%",
-        height: "20%",
+        justifyContent: "flex-end"
+    },
+    menu: {
+        backgroundColor: "#FABF01",
+        padding: "10%",
+        width: "100%",
+        height: "40%",
         borderTopLeftRadius: 30,
         borderTopRightRadius: 30,
-        position: "absolute",
-        bottom: 0,
-        padding: "10%"
     }
 })

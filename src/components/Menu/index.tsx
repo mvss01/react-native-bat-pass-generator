@@ -17,8 +17,10 @@ export const Menu = () =>{
 
     return(
         <View style={styles.container}>
-            <Input pass={pass} color={color} setPass={setPass} setColor={setColor}/>
-            <Button onPress={handleGeneratePass} text="GENERATE"/>
+            <View style={styles.menu}>
+                <Input pass={pass} color={color} setPass={setPass} setColor={setColor}/>
+                <Button onPress={handleGeneratePass} text="GENERATE"/>
+            </View>
         </View>
     )
 }
