@@ -8,7 +8,7 @@ interface InputProps {
     pass: string
     color: string
     setPass: (pass: string) => void
-    setColor: (pass: string) => void
+    setColor: (color: string) => void
 }
 
 export const Input = ({ pass, color, setPass, setColor}: InputProps) =>{
